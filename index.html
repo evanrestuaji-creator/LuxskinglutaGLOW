@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f2">
+  <meta name="description" content="Luxskingluta GLOWUP — katalog produk, informasi, dan pemesanan melalui WhatsApp.">
+  <title>Luxskingluta GLOWUP — Glow in your own way</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">LUXSKINGLUTA GLOWUP <span>•</span> Temukan produk pilihanmu</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Luxskingluta GLOWUP beranda">
+      <span class="brand-mark">L</span>
+      <span><strong>luxskingluta</strong><small>G L O W U P</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#tentang">Tentang</a><a href="#katalog">Katalog</a><a href="#cara-order">Cara Order</a><a href="#faq">FAQ</a><a href="#testimoni">Testimoni</a>
+      <a class="nav-order" href="#katalog">Jelajahi produk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> YOUR DAILY GLOW RITUAL</p>
+        <h1>Glow up,<br><em>your way.</em></h1>
+        <p class="hero-desc">Kenali produk pilihan Luxskingluta GLOWUP dan temukan yang sesuai dengan kebutuhanmu. Informasi produk dan pemesanan, semua dalam satu tempat.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#katalog">Lihat katalog <span>↗</span></a>
+          <a class="text-link" href="#tentang">Kenali brand <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span> Informasi jelas · Order mudah · Admin siap membantu</div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="hero-sun"></div>
+        <div class="hero-product-card">
+          <div class="product-placeholder hero-bottle"><span>GLOW</span><small>YOUR RITUAL</small></div>
+          <div class="hero-product-label"><span>THE GLOW EDIT</span><strong>Find your<br>daily favorite.</strong></div>
+        </div>
+        <span class="floating-star star-a">✳</span><span class="floating-star star-b">✦</span>
+        <span class="art-caption">LUXSKINGLUTA / 01</span>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>01</span> Kenali produk</div><div><span>02</span> Pilih metode pembayaran</div><div><span>03</span> Order lewat WhatsApp</div>
+    </section>
+
+    <section class="about section-wrap section-pad" id="tentang">
+      <div class="section-kicker">THE BRAND / 01</div>
+      <div class="about-grid">
+        <h2>Simple choices.<br><em>Feel-good rituals.</em></h2>
+        <div class="about-text"><p>Selamat datang di Luxskingluta GLOWUP. Halaman ini dibuat untuk membantu kamu mengenal katalog, membaca informasi produk, dan bertanya langsung kepada admin sebelum melakukan pemesanan.</p><p class="muted">Lengkapi bagian ini dengan cerita brand, keunggulan yang dapat dibuktikan, informasi resmi produk, serta siapa yang cocok menggunakan produk.</p><a href="#faq" class="text-link">Baca pertanyaan umum <span>↗</span></a></div>
+      </div>
+      <div class="about-stats">
+        <div><strong>01</strong><span>Kenali informasi</span></div><div><strong>02</strong><span>Pilih produk</span></div><div><strong>03</strong><span>Konsultasikan order</span></div>
+      </div>
+    </section>
+
+    <section class="catalog-section section-pad" id="katalog">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="section-kicker">THE COLLECTION / 02</div><h2>Temukan <em>favoritmu.</em></h2></div>
+          <p>Jelajahi katalog dan hubungi admin untuk menanyakan stok, harga terbaru, serta detail produk.</p>
+        </div>
+        <div class="catalog-controls">
+          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Cari nama produk..." aria-label="Cari produk"></label>
+          <div class="filter-group" role="group" aria-label="Filter kategori">
+            <button class="filter-chip active" data-filter="all">Semua</button>
+            <button class="filter-chip" data-filter="glow">Glow</button>
+            <button class="filter-chip" data-filter="collagen">Vit C & Collagen</button>
+            <button class="filter-chip" data-filter="lainnya">Lainnya</button>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid">
+          <article class="product-card reveal" data-category="glow" data-name="Luxskingluta">
+            <div class="product-image image-lilac"><span class="product-number">01 / GLOW</span><div class="bottle bottle-lilac"><span>LUX</span><small>SKINGLUTA</small></div><span class="image-tag">YOUR PICK</span></div>
+            <div class="product-info"><div class="product-title-row"><h3>Luxskingluta</h3><span class="product-index">01</span></div><p class="product-description">Tambahkan deskripsi produk, isi/ukuran, dan informasi resmi dari kemasan di sini.</p><div class="product-bottom"><span class="price">Tanya harga</span><button class="order-button" data-product="Luxskingluta">Order <span>↗</span></button></div></div>
+          </article>
+          <article class="product-card reveal" data-category="collagen" data-name="Vit C Collagen">
+            <div class="product-image image-peach"><span class="product-number">02 / DAILY</span><div class="bottle bottle-peach"><span>VIT C</span><small>COLLAGEN</small></div><span class="image-tag">DAILY PICK</span></div>
+            <div class="product-info"><div class="product-title-row"><h3>Vit C Collagen</h3><span class="product-index">02</span></div><p class="product-description">Tambahkan deskripsi produk, isi/ukuran, dan informasi resmi dari kemasan di sini.</p><div class="product-bottom"><span class="price">Tanya harga</span><button class="order-button" data-product="Vit C Collagen">Order <span>↗</span></button></div></div>
+          </article>
+          <article class="product-card reveal" data-category="lainnya" data-name="Bitoi">
+            <div class="product-image image-green"><span class="product-number">03 / EDIT</span><div class="bottle bottle-green"><span>BITOI</span><small>GLOWUP EDIT</small></div><span class="image-tag">EXPLORE</span></div>
+            <div class="product-info"><div class="product-title-row"><h3>Bitoi</h3><span class="product-index">03</span></div><p class="product-description">Tambahkan deskripsi produk, isi/ukuran, dan informasi resmi dari kemasan di sini.</p><div class="product-bottom"><span class="price">Tanya harga</span><button class="order-button" data-product="Bitoi">Order <span>↗</span></button></div></div>
+          </article>
+        </div>
+        <p class="empty-state" id="emptyState" hidden>Produk tidak ditemukan. Coba kata kunci lain.</p>
+        <p class="catalog-footnote">Harga dan ketersediaan dapat dikonfirmasi langsung kepada admin melalui WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="order-section section-wrap section-pad" id="cara-order">
+      <div class="section-kicker">THE PROCESS / 03</div>
+      <div class="section-heading"><div><h2>Order dengan <em>nyaman.</em></h2></div><p>Ikuti langkah sederhana ini. Tanyakan syarat pembayaran dan total biaya sebelum mengonfirmasi pesanan.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-no">01</span><div class="step-icon">⌕</div><h3>Pilih produk</h3><p>Temukan produk yang kamu inginkan dari katalog.</p></article>
+        <article class="step-card"><span class="step-no">02</span><div class="step-icon">↗</div><h3>Chat admin</h3><p>Tekan tombol Order. Nama produk otomatis masuk ke pesan WhatsApp.</p></article>
+        <article class="step-card"><span class="step-no">03</span><div class="step-icon">＋</div><h3>Pilih pembayaran</h3><p>Konfirmasi apakah tersedia pembayaran lunas, DP, atau cicilan beserta ketentuannya.</p></article>
+        <article class="step-card"><span class="step-no">04</span><div class="step-icon">✓</div><h3>Konfirmasi pesanan</h3><p>Periksa rincian pesanan, biaya, dan estimasi pengiriman sebelum membayar.</p></article>
+      </div>
+      <div class="payment-panel"><div><span class="section-kicker">PAYMENT OPTIONS</span><h3>Pilih skema yang sesuai.</h3></div><div class="payment-options"><div><span class="payment-symbol">✓</span><strong>Lunas</strong><small>Bayar penuh sesuai total pesanan.</small></div><div><span class="payment-symbol">↗</span><strong>DP</strong><small>Uang muka sesuai kesepakatan admin.</small></div><div><span class="payment-symbol">＋</span><strong>Cicilan</strong><small>Tanyakan tenor, biaya, dan syaratnya.</small></div></div></div>
+      <p class="small-note">Ketersediaan metode pembayaran mengikuti kebijakan toko. Pastikan semua nominal dan ketentuan dikonfirmasi tertulis melalui admin.</p>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="section-wrap faq-layout">
+        <div class="faq-intro"><div class="section-kicker">NEED TO KNOW / 04</div><h2>Pertanyaan yang<br><em>sering ditanyakan.</em></h2><p>Belum menemukan jawaban? Tanyakan langsung ke admin agar mendapat informasi yang sesuai dengan produk.</p><a class="button button-dark" href="#" id="faqWhatsApp">Tanya admin <span>↗</span></a></div>
+        <div class="faq-list">
+          <details class="faq-item" open><summary><span>Apakah produk memiliki efek samping?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Setiap orang bisa memiliki respons yang berbeda terhadap suatu produk. Silakan cek komposisi, aturan pakai, izin edar, dan peringatan pada kemasan. Jika kamu memiliki kondisi kesehatan tertentu, sedang hamil/menyusui, atau menggunakan obat, konsultasikan terlebih dahulu dengan tenaga kesehatan.</p><p class="edit-note">Catatan admin: jika ingin mencantumkan klaim “BPOM” atau “Halal”, pastikan status dan nomor registrasinya benar-benar sudah terverifikasi untuk produk yang dimaksud.</p></div></details>
+          <details class="faq-item"><summary><span>Apakah produk sudah BPOM dan halal?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Untuk informasi BPOM dan halal, silakan cek nomor izin edar/sertifikat yang tercantum pada kemasan atau tanyakan kepada admin. Kami akan memberikan detail yang sesuai dengan produk yang kamu pilih.</p><p class="edit-note">Edit jawaban ini setelah status dan nomor registrasi masing-masing produk diverifikasi.</p></div></details>
+          <details class="faq-item"><summary><span>Bagaimana cara konsumsi atau penggunaan produk?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Ikuti petunjuk penggunaan dan takaran yang tertera pada kemasan produk ya, Kak. Jangan melebihi aturan pakai. Kalau ada kondisi khusus atau masih ragu, sebaiknya konsultasi ke tenaga kesehatan.</p></div></details>
+          <details class="faq-item"><summary><span>Berapa harga dan apakah ada promo?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Harga dan promo bisa berubah ya, Kak. Chat admin untuk mendapatkan harga terbaru, detail paket, dan ketersediaan produk.</p></div></details>
+          <details class="faq-item"><summary><span>Apakah bisa bayar DP atau cicilan?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Silakan tanyakan ketersediaan pembayaran DP atau cicilan ya, Kak. Admin akan menjelaskan nominal DP, tenor, jadwal pembayaran, dan biaya tambahan jika ada sebelum Kakak menyetujui pesanan.</p></div></details>
+          <details class="faq-item"><summary><span>Berapa lama pengiriman sampai?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Estimasi pengiriman tergantung alamat tujuan dan layanan kurir ya, Kak. Kirim kecamatan/kota tujuan ke admin untuk dicek estimasinya.</p></div></details>
+          <details class="faq-item"><summary><span>Bagaimana cara cek stok dan order?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Gampang ya, Kak. Pilih produk di katalog lalu tekan tombol Order. Pesan WhatsApp akan terbuka otomatis, setelah itu admin bantu konfirmasi stok dan proses pemesanan.</p></div></details>
+          <details class="faq-item"><summary><span>Bagaimana jika produk rusak atau pesanan tidak sesuai?</span><span class="faq-plus">+</span></summary><div class="faq-answer"><p><strong>Admin:</strong> Hubungi admin sesegera mungkin dengan nomor pesanan dan foto/video kondisi paket saat diterima. Admin akan membantu mengecek sesuai kebijakan komplain dan pengembalian toko.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section section-wrap section-pad" id="testimoni">
+      <div class="section-heading"><div><div class="section-kicker">CUSTOMER NOTES / 05</div><h2>Stories from <em>customers.</em></h2></div><p>Area untuk menampilkan ulasan pelanggan yang benar-benar diberikan dan telah mendapat izin untuk dipublikasikan.</p></div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card"><div class="testimonial-top"><span class="status status-lunas">● LUNAS</span><span class="quote-mark">“</span></div><p class="testimonial-copy">Tambahkan ulasan asli pelanggan di sini. Hindari membuat testimoni fiktif atau klaim hasil yang belum terbukti.</p><div class="testimonial-person"><span class="avatar">P</span><div><strong>Nama pelanggan</strong><small>Produk: Luxskingluta</small></div></div><span class="demo-label">TEMPLATE — GANTI DENGAN ULASAN ASLI</span></article>
+        <article class="testimonial-card"><div class="testimonial-top"><span class="status status-dp">● DP</span><span class="quote-mark">“</span></div><p class="testimonial-copy">Tambahkan ulasan asli pelanggan di sini, dengan persetujuan pelanggan untuk ditampilkan di website.</p><div class="testimonial-person"><span class="avatar avatar-peach">P</span><div><strong>Nama pelanggan</strong><small>Produk: Vit C Collagen</small></div></div><span class="demo-label">TEMPLATE — GANTI DENGAN ULASAN ASLI</span></article>
+        <article class="testimonial-card"><div class="testimonial-top"><span class="status status-cicilan">● CICILAN</span><span class="quote-mark">“</span></div><p class="testimonial-copy">Tambahkan ulasan asli tentang pengalaman order atau pelayanan, bukan klaim kesehatan yang tidak terverifikasi.</p><div class="testimonial-person"><span class="avatar avatar-green">P</span><div><strong>Nama pelanggan</strong><small>Produk: Bitoi</small></div></div><span class="demo-label">TEMPLATE — GANTI DENGAN ULASAN ASLI</span></article>
+      </div>
+    </section>
+
+    <section class="closing-cta section-wrap">
+      <div class="cta-orb"></div><div class="section-kicker">YOUR NEXT STEP</div><h2>Masih ada yang<br><em>ingin ditanyakan?</em></h2><p>Hubungi admin untuk informasi produk, harga, stok, dan metode pembayaran.</p><a class="button button-light" id="closingWhatsApp" href="#">Mulai chat WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">L</span><span><strong>luxskingluta</strong><small>G L O W U P</small></span></a><p>Informasi produk dan pemesanan melalui admin.</p><div><a href="#tentang">Tentang</a><a href="#katalog">Katalog</a><a href="#faq">FAQ</a></div><small class="copyright">© <span id="year"></span> Luxskingluta GLOWUP</small></footer>
+  <a class="floating-wa" id="floatingWhatsApp" href="#" aria-label="Chat WhatsApp">↗ <span>Chat admin</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
